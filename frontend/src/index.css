@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Light — cool neutral studio */
+  :root {
+    --surface: 248 250 252;
+    --surface-elevated: 255 255 255;
+    --ink: 15 23 42;
+    --ink-muted: 100 116 139;
+    --accent: 56 189 248;
+    --accent-2: 139 92 246;
+    --ringline: 226 232 240;
+  }
+
+  /* Midnight Intelligence */
+  .dark {
+    --surface: 5 8 22;
+    --surface-elevated: 17 24 39;
+    --ink: 248 250 252;
+    --ink-muted: 203 213 225;
+    --ink-faint: 148 163 184;
+    --accent: 56 189 248;
+    --accent-2: 139 92 246;
+    --ringline: 51 65 85;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-surface text-ink font-sans min-h-screen antialiased;
+  }
+}
+
+@layer utilities {
+  .glass {
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgb(226 232 240 / 0.85);
+    box-shadow: 0 8px 32px rgb(15 23 42 / 0.06);
+    @apply bg-white/90;
+  }
+
+  .dark .glass {
+    background: rgba(15, 23, 42, 0.72);
+    border-color: rgb(255 255 255 / 0.06);
+    box-shadow: 0 12px 40px rgb(0 0 0 / 0.45);
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-sky-500 via-sky-400 to-violet-500;
+  }
+
+  .dark .text-gradient {
+    @apply from-sky-300 via-sky-200 to-violet-300;
+  }
+}

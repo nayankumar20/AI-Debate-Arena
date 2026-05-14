@@ -1,0 +1,54 @@
+{
+  "categories": {
+    "Technology": [
+      { "topic": "Resolved: strict device attestation improves consumer security more than it harms repairability and privacy.", "blurb": "Security vs ownership" },
+      { "topic": "Should open-weight large language models be treated as dual-use infrastructure subject to export controls?", "blurb": "Governance of weights" },
+      { "topic": "Is the end of Moore's law a bigger threat to AI progress than data scarcity?", "blurb": "Hardware scaling debate" }
+    ],
+    "AI Ethics": [
+      { "topic": "Should companies be legally required to disclose when a customer is speaking with an autonomous AI agent?", "blurb": "Transparency norms" },
+      { "topic": "Is it ethical to train frontier models on publicly posted personal content without explicit opt-in?", "blurb": "Consent and the commons" },
+      { "topic": "Do AI safety evaluations belong primarily inside labs, or should third-party auditors hold binding veto power?", "blurb": "Who guards the guards" }
+    ],
+    "Education": [
+      { "topic": "Will AI tutors widen educational inequality faster than they close achievement gaps?", "blurb": "Equity in learning" },
+      { "topic": "Should essay assignments be redesigned around in-class synthesis now that generative AI exists?", "blurb": "Pedagogy under pressure" },
+      { "topic": "Is personalized AI curriculum a net positive for critical thinking skills?", "blurb": "Depth vs convenience" }
+    ],
+    "Healthcare": [
+      { "topic": "Should diagnostic AI systems require physician co-signature before influencing treatment plans?", "blurb": "Clinical accountability" },
+      { "topic": "Is predictive risk scoring in public health surveillance justified when models inherit historical bias?", "blurb": "Population-level ethics" },
+      { "topic": "Will ambient clinical documentation AI reduce burnout more than it erodes bedside rapport?", "blurb": "Human factors" }
+    ],
+    "Politics": [
+      { "topic": "Should micro-targeted political advertising powered by AI be banned outright?", "blurb": "Democratic discourse" },
+      { "topic": "Are deepfake disclosure laws sufficient, or do we need platform-level provenance infrastructure?", "blurb": "Authenticity" },
+      { "topic": "Is ranked-choice voting more compatible with AI-generated voter education than first-past-the-post?", "blurb": "Electoral design" }
+    ],
+    "Future of Work": [
+      { "topic": "Is a four-day work week more realistic if AI automates middle-skill knowledge tasks?", "blurb": "Labor and leisure" },
+      { "topic": "Should firms compensate workers whose outputs are used to fine-tune internal AI models?", "blurb": "Value capture" },
+      { "topic": "Will AI coding assistants concentrate power in senior engineers or democratize software creation?", "blurb": "Team dynamics" }
+    ],
+    "Society": [
+      { "topic": "Do algorithmic feeds improve cultural discovery or flatten pluralism into engagement-optimized monoculture?", "blurb": "Attention markets" },
+      { "topic": "Should cities regulate autonomous delivery robots on sidewalks before scaling nationwide?", "blurb": "Urban commons" },
+      { "topic": "Is universal basic income a credible response to AI-driven labor displacement within a decade?", "blurb": "Macro policy" }
+    ]
+  },
+  "trending": [
+    { "topic": "Should frontier AI labs pause scaling until interpretability catches up with capability?", "category": "AI Ethics", "blurb": "Pause debate" },
+    { "topic": "Is on-device AI the right default for consumer assistants to protect sensitive context?", "category": "Technology", "blurb": "Privacy architecture" },
+    { "topic": "Will AI-generated research summaries harm scientific literacy more than they accelerate discovery?", "category": "Education", "blurb": "Science communication" }
+  ],
+  "popular": [
+    { "topic": "Which matters more for trustworthy AI: better benchmarks or adversarial red-teaming at deployment scale?", "category": "AI Ethics", "blurb": "Evaluation culture" },
+    { "topic": "Should social platforms label synthetic media even when it is satire or art?", "category": "Society", "blurb": "Labels and intent" },
+    { "topic": "Is remote work sustainable when AI managers can monitor productivity in fine-grained detail?", "category": "Future of Work", "blurb": "Surveillance" }
+  ],
+  "controversial": [
+    { "topic": "Should nations treat autonomous lethal weapons as inevitable and regulate them, or pursue a binding ban?", "category": "Politics", "blurb": "Autonomous weapons" },
+    { "topic": "Is it acceptable to use patient records from wealthy countries to train models deployed globally?", "category": "Healthcare", "blurb": "Data colonialism" },
+    { "topic": "Should AI systems be granted legal personhood for liability purposes once they act autonomously in markets?", "category": "AI Ethics", "blurb": "Legal fiction" }
+  ]
+}
